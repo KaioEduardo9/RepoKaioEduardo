@@ -3,4 +3,9 @@
     <string name="txt_titulo">Aplicativo Lista VIP Curso Android</string>
     <string name="txt_hint_edit_primeiro_nome">Primeiro nome</string>
     <string name="txt_hint_edit_Sobrenome">Sobrenome</string>
+    <string name="txt_hint_edit_telefone_de_contato">TELEFONE DE CONTATO</string>
+    <string name="txt_button_finalizar">Finalizar</string>
+    <string name="txt_salvar_salvar">Salvar</string>
+    <string name="txt_button_limpar">Limpar</string>
+    <string name="txt_hint_edit_nome_do_curso_desejado">NOME DO CURSO DESEJADO</string>
 </resources>
