@@ -20,5 +20,6 @@ public class MainActivity extends AppCompatActivity {
         pessoa = new Pessoa();
         escola = new Escola();
 
+
     }
 }
