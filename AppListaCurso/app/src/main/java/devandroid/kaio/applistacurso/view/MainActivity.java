@@ -6,11 +6,11 @@ import android.os.Bundle;
 
 import devandroid.kaio.applistacurso.R;
 import devandroid.kaio.applistacurso.model.Pessoa;
-import devandroid.kaio.applistacurso.model.Escola;
+
 public class MainActivity extends AppCompatActivity {
 
     Pessoa pessoa;
-    Escola escola;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,8 +18,13 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         pessoa = new Pessoa();
-        escola = new Escola();
+       //Atribuir conteúdo,dados, valores para o Objeto
+       //Conforme o seu MODELO, TEMPLATE
 
-
+        pessoa.setPrimeiroNome("Kaio");
+        pessoa.setSobreNome("Eduardo");
+        pessoa.setCursoDesejado("Android");
+        pessoa.setTelefoneContato("21-99002-8922");
     }
+
 }
